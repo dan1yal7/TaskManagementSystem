@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\TaskSystem\\TaskSystem\\TaskSystem\\TaskSystem.csproj": {}
+    "C:\\Users\\admin\\source\\repos\\SysTa\\TaskSystem\\TaskSystem\\TaskSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\TaskSystem\\TaskSystem\\TaskSystem\\TaskSystem.csproj": {
+    "C:\\Users\\admin\\source\\repos\\SysTa\\TaskSystem\\TaskSystem\\TaskSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\TaskSystem\\TaskSystem\\TaskSystem\\TaskSystem.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\SysTa\\TaskSystem\\TaskSystem\\TaskSystem.csproj",
         "projectName": "TaskSystem",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\TaskSystem\\TaskSystem\\TaskSystem\\TaskSystem.csproj",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\SysTa\\TaskSystem\\TaskSystem\\TaskSystem.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\TaskSystem\\TaskSystem\\TaskSystem\\obj\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\SysTa\\TaskSystem\\TaskSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

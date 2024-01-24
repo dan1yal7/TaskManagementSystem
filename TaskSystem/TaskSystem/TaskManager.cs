@@ -94,7 +94,7 @@ namespace TaskSystem
          /// <param name="taskToDelete"></param>
         public void DeleteTask(Tasko taskToDelete)
         {
-            var itemToRemove = tasks.Single(t => t.Id == taskToDelete.Id); 
+            var itemToRemove = tasks.Single(t => t.Id == taskToDelete.Id);
             tasks.Remove(itemToRemove);
 
             Console.WriteLine(" Task has been deleted");
