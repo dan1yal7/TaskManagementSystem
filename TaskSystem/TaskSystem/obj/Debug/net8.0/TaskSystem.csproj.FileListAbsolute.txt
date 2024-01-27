@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\bin\Debug\net8.0\TaskSystem.exe
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\bin\Debug\net8.0\TaskSystem.deps.json
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\bin\Debug\net8.0\TaskSystem.runtimeconfig.json
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\bin\Debug\net8.0\TaskSystem.dll
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\bin\Debug\net8.0\TaskSystem.pdb
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.AssemblyInfo.cs
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.sourcelink.json
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.dll
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\refint\TaskSystem.dll
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.pdb
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\TaskSystem.genruntimeconfig.cache
+C:\Users\admin\source\repos\SysTa\TaskSystem\TaskSystem\obj\Debug\net8.0\ref\TaskSystem.dll
