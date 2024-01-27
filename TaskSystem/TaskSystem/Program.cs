@@ -20,11 +20,8 @@ static bool MainMenu()
     Console.WriteLine( "3. Change a task");
     Console.WriteLine( "4. De;ete a task");
 
-    //switch(Console.ReadLine())
-    //{
-    //    case "1":
-    //        TaskManager AddTask();
-    //        return true;
+    switch (Console.ReadLine())
+    { 
 
             
     //}
