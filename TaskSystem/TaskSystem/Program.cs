@@ -17,10 +17,11 @@ while (showMenu)
 
     Console.Clear();
     Console.WriteLine("Choose an option");
-    Console.WriteLine("1. Add a task ");
-    Console.WriteLine(" 2. View a task ");
-    Console.WriteLine("3. Change a task");
-    Console.WriteLine("4. Delete a task");
+    Console.WriteLine("1.Add a task ");
+    Console.WriteLine("2.View a task ");
+    Console.WriteLine("3.Change a task");
+    Console.WriteLine("4.Delete a task");
+    //Console.WriteLine("5.Filter a task");
 
     switch (Console.ReadLine())
     {
@@ -30,7 +31,8 @@ while (showMenu)
             AddTask();
             return true;
         case "2":
-            taskManager.ViewTask();  ///  нужно будет кое-что подправить 
+            taskManager.ViewTask();
+            Console.ReadLine();///  нужно будет кое-что подправить 
             return true;
         case "3":
             ChangeTask();
@@ -38,7 +40,10 @@ while (showMenu)
         case "4":
             DeleteTask();
             return true;
-        case "5":
+        ////case "5": 
+        ////    FilterTask(); 
+        //    return true;
+        case "6":
             return false;
         default:
             return true;
@@ -53,37 +58,38 @@ while (showMenu)
 {
     Console.WriteLine("Enter task details:");
     Tasko newTask = new Tasko();
-    // Заполните свойства новой задачи, например:
     Console.WriteLine("Enter Task ID:");
     newTask.Id = int.Parse(Console.ReadLine());
     Console.WriteLine("Enter Task Description:");
     newTask.Description = Console.ReadLine();
-    // Аналогично заполните другие свойства задачи
     taskManager.AddTask(newTask);
-    Console.ReadLine(); // Чтобы пользователь увидел сообщение и вернулся в меню
+    Console.ReadLine(); 
 }
 
  void ChangeTask()
 {
     Console.WriteLine("Enter task details to update:");
     Tasko taskToUpdate = new Tasko();
-    // Заполните свойства задачи для обновления, например:
     Console.WriteLine("Enter Task ID:");
     taskToUpdate.Id = int.Parse(Console.ReadLine());
-    // Подобным образом заполните другие свойства задачи
     taskManager.ChangeTask(taskToUpdate);
-    Console.ReadLine(); // Чтобы пользователь увидел сообщение и вернулся в меню
+    Console.ReadLine(); 
 }
 
 void DeleteTask()
 {
     Console.WriteLine("Enter task ID to delete:");
     Tasko taskToDelete = new Tasko();
-    // Заполните свойства задачи для удаления, например:
     Console.WriteLine("Enter Task ID:");
     taskToDelete.Id = int.Parse(Console.ReadLine());
     taskManager.DeleteTask(taskToDelete);
-    Console.ReadLine(); // Чтобы пользователь увидел сообщение и вернулся в меню
-}
-    
+    Console.ReadLine(); 
+} 
+ 
   
+//void FilterTask()
+//{
+//    Tasko taskFilter = new Tasko();
+//    Console.WriteLine("Enter Task ID:");
+//    taskFilter.Id = int.Parse(Console.ReadLine());
+//}

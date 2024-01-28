@@ -32,11 +32,15 @@ namespace TaskSystem
         /// </summary>
         public void ViewTask()
         {
-            Console.WriteLine(" Here the list of tasks for developers:");
+            if (tasks.Count == 0)
+            {
+                Console.WriteLine("No tasks available.");
+                return;
+            }
+
             foreach (var task in tasks)
             {
-                Console.WriteLine($" TaskId: {task.Id}, Description: {task.Description}, Assignee: {task.Assignee}, " +
-                    $"Priority: {task.Priority}, Status: {task.Status}, Create At: {task.CreatedAt}");
+                Console.WriteLine($"Task ID: {task.Id}, Description: {task.Description}, Assignee: {task.Assignee}, Priority: {task.Priority}, Status: {task.Status}, Created At: {task.CreatedAt}");
             }
 
         } 
