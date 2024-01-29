@@ -21,7 +21,7 @@ while (showMenu)
     Console.WriteLine("2.View a task ");
     Console.WriteLine("3.Change a task");
     Console.WriteLine("4.Delete a task");
-    //Console.WriteLine("5.Filter a task");
+    Console.WriteLine("5.Filter a task");
 
     switch (Console.ReadLine())
     {
@@ -40,9 +40,9 @@ while (showMenu)
         case "4":
             DeleteTask();
             return true;
-        ////case "5": 
-        ////    FilterTask(); 
-        //    return true;
+        case "5":
+            FilterTask();
+            return true;
         case "6":
             return false;
         default:
@@ -84,12 +84,14 @@ void DeleteTask()
     taskToDelete.Id = int.Parse(Console.ReadLine());
     taskManager.DeleteTask(taskToDelete);
     Console.ReadLine(); 
-} 
- 
-  
-//void FilterTask()
-//{
-//    Tasko taskFilter = new Tasko();
-//    Console.WriteLine("Enter Task ID:");
-//    taskFilter.Id = int.Parse(Console.ReadLine());
-//}
+}
+
+
+void FilterTask()
+{
+    Tasko taskFilter = new Tasko();
+    Console.WriteLine("Enter Task ID:");
+    taskFilter.Id = int.Parse(Console.ReadLine()); 
+    taskManager.FilterTask(taskFilter); 
+    Console.ReadLine();  
+}
