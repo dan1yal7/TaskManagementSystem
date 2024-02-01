@@ -29,7 +29,7 @@ while (showMenu)
         case "1":
 
             AddTask();
-            return true;
+            return true; 
         case "2":
             taskManager.ViewTask();
             Console.ReadLine();///  нужно будет кое-что подправить 
@@ -91,7 +91,19 @@ void FilterTask()
 {
     Tasko taskFilter = new Tasko();
     Console.WriteLine("Enter Task ID:");
-    taskFilter.Id = int.Parse(Console.ReadLine()); 
-    taskManager.FilterTask(taskFilter); 
+    taskFilter.Id = int.Parse(Console.ReadLine());   
+    taskManager.FilterTask(taskFilter);
+
+    if ( taskFilter != null)
+    {
+        Console.WriteLine("Task Description: " + taskFilter.Description);
+        Console.WriteLine("Task Status: " + taskFilter.Status);
+        // Другие детали задачи, если есть
+    }
+    else
+    {
+        Console.WriteLine("Task with ID " + taskFilter.Id + " not found.");
+    }
+
     Console.ReadLine();  
 }
