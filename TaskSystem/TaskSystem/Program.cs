@@ -94,7 +94,7 @@ void FilterTask()
     taskFilter.Id = int.Parse(Console.ReadLine());   
     taskManager.FilterTask(taskFilter);
 
-    if ( taskFilter != null)
+    if (taskFilter != null && taskFilter.Description != null)
     {
         Console.WriteLine("Task Description: " + taskFilter.Description);
         Console.WriteLine("Task Status: " + taskFilter.Status);
